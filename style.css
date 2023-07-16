@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    transition: background 0.5s;
+}
+/*==============MAIN================*/
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.main{
+    position: relative;
+    z-index: 1;
+}
+.main h2{
+    position: fixed;
+    top: 20px;
+    left: 10px;
+}
+.top-right{
+    position: fixed;
+    top: 24px;
+    right: 20px;
+}
+.top-right:hover{
+    text-decoration: underline;
+}
+.bottom-left{
+    position: fixed;
+    top: 330px;
+    left: 10px;
+    width: 300px;
+}
+.bottom-left-2{
+    position: fixed;
+    top: 480px;
+    left: 10px;
+    width: 200px;
+    font-size: 12px;
+}
+.bottom-left-3{
+    position: fixed;
+    top: 560px;
+    left: 10px;
+    width: 200px;
+}
+.bottom-right{
+    position: fixed;
+    top: 450px;
+    right: 20px;
+}
+.al{
+    color: #222;
+    text-decoration: none;
+}
+.al:hover{
+    text-decoration: underline;
+}
+.au{
+    color: #222;
+    text-decoration: underline;
+}
+.au:hover{
+    text-decoration: none;
+}
+/*=================SECTION-1===================*/
+#sec-1{
+    position: relative;
+    height: 700px;
+}
+.middle{
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+#sec-1 img{
+    width: 420px;
+}
+.a1{
+    display: block;
+    margin: 20px 0px;
+    color: #fff;
+}
+.a2{
+    color: #fff;
+}
+.a1:hover{
+    text-decoration: underline;
+}
+.a2:hover{
+    text-decoration: underline;
+}
+/*=================SECTION-2===================*/
+#sec-2{
+    position: relative;
+    height: 700px;
+}
+#sec-2 img{
+    width: 420px;
+}
+/*=================SECTION-3===================*/
+#sec-3{
+    position: relative;
+    height: 700px;
+}
+#sec-3 img{
+    width: 420px;
+}
+/*=================SECTION-4===================*/
+#sec-4{
+    position: relative;
+    height: 700px;
+}
+#sec-4 img{
+    width: 420px;
+}
+/*=================SECTION-5===================*/
+#sec-5{
+    position: relative;
+    height: 700px;
+}
+#sec-5 img{
+    width: 420px;
+}
+footer{
+    display: none;
+}
+/*=========RESPONSIVE==========*/
+@media only screen and (max-width: 800px){
+    .main h2{
+        position: absolute;
+        top: 10px;
+    }
+    .bottom-right{
+        display: none;
+    }
+    .top-right{
+       display: none;
+    }
+    .bottom-left{
+        display: none;
+
+    }
+    .bottom-left-2{
+        display: none;
+
+    }
+    .bottom-left-3{
+        display: none;
+
+    }
+    footer{
+        margin: 30px auto;
+        width: 60vw;
+        display: block;
+        text-align: center;
+    }
+    .f1{
+        margin: 20px 0px;
+    }
+    .f1:hover{
+        text-decoration: underline;
+    }
+    .au{
+        color: black;
+        text-decoration: underline;
+    }
+    .au:hover{
+        text-decoration: none;
+    }
+    .f3, .f4{
+        margin: 20px 0px;
+    }
+
+}
